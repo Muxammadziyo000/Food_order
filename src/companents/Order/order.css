@@ -1,0 +1,97 @@
+.order {
+    color: #FFF;
+    padding: 20px;
+    width: 40%;
+    height: 100%;
+
+    .order_btn_wrapper {
+        margin-top: 40px;
+
+        .active {
+            color: #FFF;
+            background-color: #EA7C69;
+        }
+    }
+
+    .order_btn {
+        margin-left: 20px;
+        padding: 14px 20px;
+        border: 1px solid #393C49;
+        border-radius: 8px;
+        background-color: transparent;
+        color: #EA7C69;
+
+    }
+
+    .order_ul {
+        margin: 10px;
+        margin-top: 60px;
+
+        .order_li {
+            margin-top: 40px;
+
+            .li_top {
+                display: flex;
+                justify-content: space-between;
+
+                div {
+                    width: 50%;
+
+                }
+
+                img {
+                    height: 41px;
+                    width: 41px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+
+                h4 {
+                    font-size: 13px;
+
+                }
+
+                p {
+                    font-size: 12px;
+                    color: #ABBBC2;
+                }
+
+                span {
+                    background-color: #393C49;
+                    padding: 14px 20px;
+                    border-radius: 8px;
+                }
+
+
+            }
+
+            .li_bot {
+                margin-top: 10px;
+
+                input {
+                    padding: 14px;
+                    width: 85%;
+                    border-radius: 8px;
+                    outline: none;
+                    border: none;
+                    background-color: #393C49;
+                    margin-right: 10px;
+                }
+
+                button {
+                    padding: 14px;
+                    border-radius: 8px;
+                    background-color: transparent;
+                    border: none;
+                    border: 1px solid #EA7C69;
+                    margin-left: 10px;
+
+                    i {
+                        color: #EA7C69;
+
+                    }
+                }
+            }
+        }
+    }
+}

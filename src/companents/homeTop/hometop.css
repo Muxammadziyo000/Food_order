@@ -1,0 +1,27 @@
+.home_top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: #fff;
+    padding: 20px;
+
+    .div_input {
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        border: 1px solid #393C49;
+
+        i {
+            padding: 5px;
+        }
+
+        input {
+            background-color: transparent;
+            border: none;
+            outline: none;
+            color: #fff;
+        }
+    }
+}
